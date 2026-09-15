@@ -31,5 +31,7 @@
     "--background-index",
     "--query-driver=**",
     "--compile-commands-dir=c:\\Projetos_esp32_s3_2026_2\\projeto_7.1_wire-1_am2302_dht22\\build"
-  ]
+  ],
+  "idf.portWin": "COM3",
+  "idf.flashType": "UART"
 }

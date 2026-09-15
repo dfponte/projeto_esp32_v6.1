@@ -37,11 +37,11 @@ static const char *TAG = "am2302.rmt";
 #define AM2302_RESPONSE_PULSE_LOW_US          80    // 80us
 #define AM2302_RESPONSE_PULSE_HIGH_US         80    // 80us
 #define AM2302_BIT_ZERO_LOW_US                50    // 50us
-#define AM2302_BIT_ZERO_HIGH_US               26    // 26us
+#define AM2302_BIT_ZERO_HIGH_US               30    // 26us
 #define AM2302_BIT_ONE_LOW_US                 50    // 50us
 #define AM2302_BIT_ONE_HIGH_US                70    // 70us
 
-#define AM2302_DECODE_SYMBOL_MARGIN_US        15 // error margin of 15us
+#define AM2302_DECODE_SYMBOL_MARGIN_US        35 // error margin of 15us
 
 typedef struct am2302_t {
     rmt_channel_handle_t tx_channel;      /*!< rmt tx channel handler */
