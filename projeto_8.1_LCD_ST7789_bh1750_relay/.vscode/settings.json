@@ -30,8 +30,8 @@
   "clangd.arguments": [
     "--background-index",
     "--query-driver=**",
-    "--compile-commands-dir=c:\\Users\\danie\\Documents\\Daniel\\Cursos\\ESP-IDF_Aulas_Projetos\\projetos_Esp32_gitHub_2026_2\\projeto_7.1_Wire-1_ds18x20_components\\build"
+    "--compile-commands-dir=c:\\Projetos_esp32_s3_2026_2\\projeto_8.0_LCD_ST7789_v1\\build"
   ],
-  "idf.portWin": "COM5",
+  "idf.portWin": "COM3",
   "idf.flashType": "UART"
 }

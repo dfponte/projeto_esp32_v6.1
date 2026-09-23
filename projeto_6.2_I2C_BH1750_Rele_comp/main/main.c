@@ -29,7 +29,9 @@ void app_main()
       
         uint8_t data[2];
         // 4. Receber 2 bytes de dados
-        esp_err_t ret = i2c_master_receive(dev_handle, data, 2, -1);
+        esp_err_t ret = i2c_master_receive(dev_handle, data, 2, -1);  // dev_handle (Manipulador do Dispositivo) endereço identificador
+                                                                      // O que é: É o "endereço de identificação" do dispositivo 
+                                                                      
         
         if (ret == ESP_OK) {
             // Cálculo: (MSB << 8 | LSB) / 1.2
